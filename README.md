@@ -13,12 +13,15 @@ Pretty standard Ubuntu configurations. I really like it that way.
 - `Javascript` and `node.js` linting
 - `NerdTree` included
 
+Note: to get solarized to work on a Mac using iTerm2 please look at this SO thread https://stackoverflow.com/questions/7278267/incorrect-colors-with-vim-in-iterm2-using-solarized
+
 ## Install
 
 Clone the repo into your home directory and open `vim`:
 
 ```bash
-git clone https://github.com/dasdachs/work-configurations .
+git clone https://github.com/dasdachs/work-configurations
+cp work-configurations/.vim work-configurations/.bash_profile .
 vim
 ```
 
