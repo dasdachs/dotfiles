@@ -1,0 +1,63 @@
+{
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "files.exclude": {
+    "node_modules/": true,
+    ".git": true
+  },
+  "files.watcherExclude": {
+    "node_modules/": true,
+    ".git": true
+  },
+  "cSpell.userWords": [
+    "backend",
+    "camelcase",
+    "csstype",
+    "labelledby",
+    "lingui",
+    "obj",
+    "scrollwheel",
+    "tabpanel",
+    "testid",
+    "truthy",
+    "unmount",
+  ],
+  "workbench.colorTheme": "Solarized Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "breadcrumbs.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "todo-tree.tags": ["TODO", "FIXME", "WARNING", "IMPROVEMENT"],
+  "todo-tree.statusBar": "total",
+  "todo-tree.customHighlight": {
+    "TODO": {
+      "icon": "issue-opened",
+      "iconColour": "yellow",
+      "type": "line"
+    },
+    "FIXME": {
+      "icon": "bug",
+      "iconColour": "red",
+      "type": "line"
+    },
+    "WARNING": {
+      "foreground": "red",
+      "icon": "alert",
+      "iconColour": "red",
+      "type": "text"
+    },
+    "IMPROVEMENT": {
+      "foreground": "yellow",
+      "icon": "beaker",
+      "iconColour": "yellow",
+      "type": "text"
+    }
+  },
+  "todo-tree.excludeGlobs": ["node_modules/", ".git", ".venv"],
+  "todo-tree.flat": true,
+  "todo-tree.showCountsInTree": true,
+  "explorer.confirmDelete": false,
+  "workbench.startupEditor": "newUntitledFile"
+}
