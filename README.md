@@ -15,7 +15,12 @@ Pretty standard Ubuntu configurations. I really like it that way.
 
 Note: to get solarized to work on a Mac using iTerm2 please look at this SO thread https://stackoverflow.com/questions/7278267/incorrect-colors-with-vim-in-iterm2-using-solarized
 
-## Install
+*VSCode*:
+- install the extensions in `vs-code-extensions.list`
+- open `settings(JSON)`, e.g. with `cmd + shift + p` and copy `settings.json` OR
+- save `settings.json` into the [Settings file location](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations)
+
+## Install VIM
 
 Clone the repo into your home directory and open `vim`:
 
