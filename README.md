@@ -17,6 +17,7 @@ Note: to get solarized to work on a Mac using iTerm2 please look at this SO thre
 
 *VSCode*:
 - install the extensions in `vs-code-extensions.list`
+  ` $ curl https://raw.githubusercontent.com/dasdachs/dotfiles/master/vs-code-extensions.list | code --install-extension
 - open `settings(JSON)`, e.g. with `cmd + shift + p` and copy `settings.json` OR
 - save `settings.json` into the [Settings file location](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations)
 
