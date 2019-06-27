@@ -112,4 +112,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 # Default user
+# Replace with your username
 DEFAULT_USER="dasdachs"
